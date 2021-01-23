@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    min-height: 100vh;
+    background-color:hsl(235, 16%, 14%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./images/bg-stars.svg);
+}
+
+
+.container-heading{
+    padding-top: 10rem;
+}
+
+.container-heading h1{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.container-counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column; 
+}
+
+.container-num{
+    font-size: 3rem;
+    padding: 0rem 2rem;
+    color: hsl(345, 95%, 68%);
+    background-color: hsl(236, 21%, 26%);
+    margin: 1rem;
+    box-shadow: 0px 10px hsl(234, 17%, 12%);
+    border-radius: 0.625rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+}
+
+.container-counter span{
+    color: hsl(237, 18%, 59%);
+}
+
+footer{
+    background-image: url(/images/pattern-hills.svg);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+li{
+    padding: 1rem;
+}
+
+.links li a{
+    text-decoration: none;
+}
+
+svg{
+    fill: #8385A9;
+    transition: 400ms ease-in-out;
+}
+
+
+svg:hover {
+    fill:hsl(345, 95%, 68%);
+    transform: scale(1.5);
+}
+  
+@media screen and (max-width: 700px)
+{
+    .container-num{
+        font-size: 1rem;
+        padding: 0rem 0.5rem;
+        color: hsl(345, 95%, 68%);
+        background-color: hsl(236, 21%, 26%);
+        margin: 1rem;
+        box-shadow: 0px 10px hsl(234, 17%, 12%);
+        border-radius: 0.625rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+    }
+    
+}
