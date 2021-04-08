@@ -61,7 +61,7 @@ body{
 }
 
 footer{
-    background-image: url(/images/pattern-hills.svg);
+    background-image: url(./images/pattern-hills.svg);
     height: 20vh;
     width: 100%;
     display: flex;
